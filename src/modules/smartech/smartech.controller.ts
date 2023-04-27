@@ -7,12 +7,17 @@ class SmartechHookController {
         req: Request,
         res: Response,
         next: NextFunction
-    ): Promise<void> {
+    ): Promise<Response> {
         try {
-            const {...data}:IFormData = req.body;
-            data.Activite_Name ="blueblossom_campaign";
-            await smartechService.PostBlueblossomCampaign(data);
-            res.status(200);
+            const {...info}:IFormData = req.body;
+            info.Activite_Name ="blueblossom_campaign";
+           const {is_success,data,message}:any = await smartechService.PostBlueblossomCampaign(info);
+           if(is_success)
+           {
+            return res.status(200);
+           }
+           return res.status(200).json({message});
+            
         } catch (error) {
             next(error);
         }

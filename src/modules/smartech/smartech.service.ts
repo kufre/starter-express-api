@@ -4,15 +4,15 @@ import { IFormData } from "./dto.smartech";
 
 class SmartechService
 {
-    public PostBlueblossomCampaign  = async (requestData:IFormData) : Promise<void> => {
+    public PostBlueblossomCampaign  = async (requestData:IFormData) => {
         const data = this.FormatePostData(requestData)
         const config = this.AxiosConfig(data);
         axios.request(config).then((response) => {
-        console.log(JSON.stringify(response.data));
-
+            return {is_success:true, data:response.data}
         })
         .catch((error) => {
-        console.log(error);
+        const{message} = error;
+        return {is_success:true, data:{}, message:message}
         });
     }
     private FormatePostData = (formInfo:IFormData) =>
