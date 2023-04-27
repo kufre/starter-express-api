@@ -1,2 +1,189 @@
 2023-04-27 15:46:43:4643 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
 2023-04-27 15:46:43:4643 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 18:35:05:355 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 18:35:05:355 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 18:38:55:3855 [35mhttp[39m: [35mPOST /api/v1/smartech 401 42 - 3.531 ms[39m
+[35m[39m
+2023-04-27 18:39:10:3910 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 18:39:10:3910 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 18:39:26:3926 [35mhttp[39m: [35mPOST /api/v1/smartech 401 42 - 3.041 ms[39m
+[35m[39m
+2023-04-27 18:42:58:4258 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 18:42:58:4258 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 18:43:13:4313 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 18:43:13:4313 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 18:44:21:4421 [31merror[39m: [31m{"type":"TypeError","message":"Cannot destructure property 'is_success' of '(intermediate value)' as it is undefined.","method":"POST","path":"/api/v1/smartech","params":"/","body":{},"query":{},"stack":"TypeError: Cannot destructure property 'is_success' of '(intermediate value)' as it is undefined.\n    at hook (/Users/kufregodwin/workstation/sandbox/ideas/starter-express-api/src/modules/smartech/smartech.controller.ts:14:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}[39m
+2023-04-27 18:44:21:4421 [35mhttp[39m: [35mPOST /api/v1/smartech 422 100 - 60985.531 ms[39m
+[35m[39m
+2023-04-27 18:46:57:4657 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 18:46:57:4657 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 18:55:43:5543 [35mhttp[39m: [35mPOST /api/v1/smartech - - - - ms[39m
+[35m[39m
+2023-04-27 18:55:55:5555 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 18:55:55:5555 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:14:41:1441 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:14:41:1441 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:24:50:2450 [35mhttp[39m: [35mPOST /api/v1/smartech - - - - ms[39m
+[35m[39m
+2023-04-27 19:25:46:2546 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:25:46:2546 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:27:04:274 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:27:04:274 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:27:25:2725 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:27:25:2725 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:28:33:2833 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:28:33:2833 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:29:05:295 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:29:05:295 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:30:05:305 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:30:05:305 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:30:20:3020 [35mhttp[39m: [35mPOST /api/v1/smartech 400 21 - 2.927 ms[39m
+[35m[39m
+2023-04-27 19:30:54:3054 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:30:54:3054 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:32:05:325 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:32:05:325 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:33:05:335 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:33:05:335 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:33:33:3333 [35mhttp[39m: [35mPOST /api/v1/smartech - - - - ms[39m
+[35m[39m
+2023-04-27 19:35:20:3520 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:35:20:3520 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:36:17:3617 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:36:17:3617 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:36:26:3626 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:36:26:3626 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:37:13:3713 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:37:13:3713 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:37:58:3758 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:37:58:3758 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:38:21:3821 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:38:21:3821 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:38:51:3851 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:38:51:3851 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:39:18:3918 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:39:18:3918 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:39:32:3932 [35mhttp[39m: [35mPOST /api/v1/smartech 400 56 - 8562.437 ms[39m
+[35m[39m
+2023-04-27 19:39:52:3952 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:39:52:3952 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:40:37:4037 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:40:37:4037 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:40:45:4045 [35mhttp[39m: [35mPOST /api/v1/smartech 400 49 - 1.747 ms[39m
+[35m[39m
+2023-04-27 19:40:48:4048 [35mhttp[39m: [35mPOST /api/v1/smartech 400 49 - 0.554 ms[39m
+[35m[39m
+2023-04-27 19:40:49:4049 [35mhttp[39m: [35mPOST /api/v1/smartech 400 49 - 0.496 ms[39m
+[35m[39m
+2023-04-27 19:41:13:4113 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:41:13:4113 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:41:17:4117 [35mhttp[39m: [35mPOST /api/v1/smartech 201 49 - 2.141 ms[39m
+[35m[39m
+2023-04-27 19:41:19:4119 [35mhttp[39m: [35mPOST /api/v1/smartech 201 49 - 0.617 ms[39m
+[35m[39m
+2023-04-27 19:41:20:4120 [35mhttp[39m: [35mPOST /api/v1/smartech 201 49 - 0.301 ms[39m
+[35m[39m
+2023-04-27 19:41:20:4120 [35mhttp[39m: [35mPOST /api/v1/smartech 201 49 - 0.304 ms[39m
+[35m[39m
+2023-04-27 19:41:21:4121 [35mhttp[39m: [35mPOST /api/v1/smartech 201 49 - 0.302 ms[39m
+[35m[39m
+2023-04-27 19:41:45:4145 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:41:45:4145 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:43:10:4310 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:43:10:4310 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:43:20:4320 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:43:20:4320 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:44:53:4453 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:44:53:4453 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:45:04:454 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:45:04:454 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-04-27 19:45:09:459 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 3.348 ms[39m
+[35m[39m
+2023-04-27 19:45:11:4511 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.471 ms[39m
+[35m[39m
+2023-04-27 19:45:11:4511 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.743 ms[39m
+[35m[39m
+2023-04-27 19:45:12:4512 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.875 ms[39m
+[35m[39m
+2023-04-27 19:45:13:4513 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.901 ms[39m
+[35m[39m
+2023-04-27 19:45:13:4513 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.020 ms[39m
+[35m[39m
+2023-04-27 19:45:14:4514 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.751 ms[39m
+[35m[39m
+2023-04-27 19:45:14:4514 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.681 ms[39m
+[35m[39m
+2023-04-27 19:45:15:4515 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.229 ms[39m
+[35m[39m
+2023-04-27 19:45:15:4515 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 2.213 ms[39m
+[35m[39m
+2023-04-27 19:45:15:4515 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.786 ms[39m
+[35m[39m
+2023-04-27 19:45:15:4515 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.632 ms[39m
+[35m[39m
+2023-04-27 19:45:15:4515 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.674 ms[39m
+[35m[39m
+2023-04-27 19:45:15:4515 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.847 ms[39m
+[35m[39m
+2023-04-27 19:45:15:4515 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.773 ms[39m
+[35m[39m
+2023-04-27 19:45:16:4516 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.823 ms[39m
+[35m[39m
+2023-04-27 19:45:16:4516 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.993 ms[39m
+[35m[39m
+2023-04-27 19:45:16:4516 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.682 ms[39m
+[35m[39m
+2023-04-27 19:45:16:4516 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.732 ms[39m
+[35m[39m
+2023-04-27 19:45:16:4516 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.022 ms[39m
+[35m[39m
+2023-04-27 19:45:17:4517 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.586 ms[39m
+[35m[39m
+2023-04-27 19:45:17:4517 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.807 ms[39m
+[35m[39m
+2023-04-27 19:45:17:4517 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.901 ms[39m
+[35m[39m
+2023-04-27 19:45:17:4517 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.750 ms[39m
+[35m[39m
+2023-04-27 19:45:18:4518 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.757 ms[39m
+[35m[39m
+2023-04-27 19:45:18:4518 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.125 ms[39m
+[35m[39m
+2023-04-27 19:45:18:4518 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.600 ms[39m
+[35m[39m
+2023-04-27 19:45:18:4518 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.840 ms[39m
+[35m[39m
+2023-04-27 19:45:18:4518 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.819 ms[39m
+[35m[39m
+2023-04-27 19:45:20:4520 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.653 ms[39m
+[35m[39m
+2023-04-27 19:45:20:4520 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.603 ms[39m
+[35m[39m
+2023-04-27 19:45:20:4520 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.859 ms[39m
+[35m[39m
+2023-04-27 19:45:20:4520 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.655 ms[39m
+[35m[39m
+2023-04-27 19:45:20:4520 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.732 ms[39m
+[35m[39m
+2023-04-27 19:45:21:4521 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.697 ms[39m
+[35m[39m
+2023-04-27 19:45:21:4521 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.861 ms[39m
+[35m[39m
+2023-04-27 19:45:21:4521 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.625 ms[39m
+[35m[39m
+2023-04-27 19:45:21:4521 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.639 ms[39m
+[35m[39m
+2023-04-27 19:45:22:4522 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.569 ms[39m
+[35m[39m
+2023-04-27 19:45:22:4522 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.955 ms[39m
+[35m[39m
+2023-04-27 19:45:23:4523 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.753 ms[39m
+[35m[39m
+2023-04-27 19:45:23:4523 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.637 ms[39m
+[35m[39m
+2023-04-27 19:45:23:4523 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 0.890 ms[39m
+[35m[39m
+2023-04-27 19:45:24:4524 [35mhttp[39m: [35mPOST /api/v1/smartech 201 21 - 1.252 ms[39m
+[35m[39m
+2023-04-27 19:45:44:4544 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-04-27 19:45:44:4544 [32mdebug[39m: [32mApp is listening on port 9000[39m
