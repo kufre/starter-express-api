@@ -9,7 +9,7 @@ class SmartechService
         const config = this.AxiosConfig(data);
 
         try {
-            //const res = await axios.request(config);
+            const res = await axios.request(config);
             return {is_success:true,message:'success'}
         } catch (error) {
             const {message} = error
