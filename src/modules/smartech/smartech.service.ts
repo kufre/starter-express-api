@@ -5,7 +5,7 @@ import { IFormData } from "./dto.smartech";
 class SmartechService
 {
     public PostBlueblossomCampaign  = async (requestData:IFormData): Promise<any> => {
-        const data = this.FormatePostData(requestData);
+        const data = await this.FormatePostData(requestData);
         var url = 'https://api2.netcoresmartech.com/v1/activity/upload';
         var method = 'post';
         var header = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.SMARTECH_API_KEY}`};

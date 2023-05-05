@@ -281,3 +281,31 @@
 2023-05-05 10:06:40:640 [32mdebug[39m: [32mApp is listening on port 9000[39m
 2023-05-05 10:12:19:1219 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
 2023-05-05 10:12:19:1219 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 18:18:11:1811 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 18:18:11:1811 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 18:20:10:2010 [35mhttp[39m: [35mPOST /api/v1/smartech 400 49 - 2682.187 ms[39m
+[35m[39m
+2023-05-05 18:20:47:2047 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 18:20:47:2047 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 18:22:07:227 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 18:22:07:227 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 18:22:18:2218 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 18:22:18:2218 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 18:22:34:2234 [35mhttp[39m: [35mPOST /api/v1/smartech 201 605 - 7796.309 ms[39m
+[35m[39m
+2023-05-05 18:23:25:2325 [35mhttp[39m: [35mPOST /api/v1/smartech 201 469 - 9602.902 ms[39m
+[35m[39m
+2023-05-05 18:24:46:2446 [35mhttp[39m: [35mPOST /api/v1/smartech 201 459 - 1766.735 ms[39m
+[35m[39m
+2023-05-05 18:25:00:250 [35mhttp[39m: [35mPOST /api/v1/smartech 201 469 - 1848.668 ms[39m
+[35m[39m
+2023-05-05 18:25:22:2522 [35mhttp[39m: [35mPOST /api/v1/smartech 201 605 - 1974.201 ms[39m
+[35m[39m
+2023-05-05 18:25:42:2542 [35mhttp[39m: [35mPOST /api/v1/smartech 201 489 - 1757.391 ms[39m
+[35m[39m
+2023-05-05 18:25:58:2558 [35mhttp[39m: [35mPOST /api/v1/smartech 201 602 - 1408.346 ms[39m
+[35m[39m
+2023-05-05 18:26:19:2619 [35mhttp[39m: [35mPOST /api/v1/smartech 201 475 - 2296.999 ms[39m
+[35m[39m
+2023-05-05 18:26:39:2639 [35mhttp[39m: [35mPOST /api/v1/smartech 201 483 - 2182.896 ms[39m
+[35m[39m
