@@ -5,10 +5,16 @@ import { IFormData } from "./dto.smartech";
 class SmartechService
 {
     public PostBlueblossomCampaign  = async (requestData:IFormData): Promise<any> => {
-        const data = this.FormatePostData(requestData)
-        const config = this.AxiosConfig(data);
+        const data = this.FormatePostData(requestData);
+        var url = 'https://api2.netcoresmartech.com/v1/activity/upload';
+        var method = 'post';
+        var header = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.SMARTECH_API_KEY}`};
+        const config = this.AxiosConfig(data,url,header,method);
         try {
+          
+            const list = await this.PostToList(requestData);
             const res = await axios.request(config);
+
             return {is_success:true,message:'success'}
         } catch (error) {
             const {message} = error
@@ -16,7 +22,7 @@ class SmartechService
         }
       
     }
-    private FormatePostData = (formInfo:IFormData) =>
+    private FormatePostData = async (formInfo:IFormData) =>
     {
         const postData ={emai:formInfo.EmailAddress,...formInfo}
         delete postData.EmailAddress;
@@ -30,23 +36,46 @@ class SmartechService
             activity_params:{ ...other}}]);
         return data
     }
-    private AxiosConfig = (data:any) => 
+    private AxiosConfig = (data:any, url:string, header:any, method:string) => 
     {
         const config = {
-            method: 'post',
+            method:method,
             maxBodyLength: Infinity,
-            url: 'https://api2.netcoresmartech.com/v1/activity/upload',
-            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.SMARTECH_API_KEY}`},
+            url: url,
+            headers: header,
             data : data
         };
 
         return config;
     }
 
+    private PostToList = async (postData:IFormData)=>{
+        var customerInfo = {
+            EMAIL: postData.EmailAddress,
+            MOBILE: postData.PhoneNumber,
+            CUSTOMERNAME: postData.FirstName +' '+ postData.LastName,
+            FIRSTNAME: postData.FirstName ,
+            LASTNAME: postData.LastName,
+        }
+        var customerData = JSON.stringify(customerInfo);
+        var url = 'http://api.netcoresmartech.com/apiv2';
+        var method = 'post';
+        var header ={'content-type': 'application/x-www-form-urlencoded' };
+        var data = `apikey=${process.env.SMARTECH_API_KEY}&type=contact&activity=add&data=${customerData}&listid=2476`;
+        const config = this.AxiosConfig(data,url,header,method);
+        try {
+            const res = await axios.request(config);
+            return {is_success:true,message:'success'}
+        } catch (error) {
+            const {message} = error
+            return {is_success:false,message}
+        }
 
+    }
 }
 
 export default new SmartechService();
+
 
 // var qs = require("querystring");
 // var http = require("http");

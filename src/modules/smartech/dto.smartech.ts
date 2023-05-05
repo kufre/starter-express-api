@@ -11,7 +11,7 @@ export interface IFormData{
     LastName : string ;
     Location : string  ;
     MonthlyIncome : string ;
-    Phonenumber : string ;
+    PhoneNumber : string ;
     Sex : string ;
     SizeOfYourOrganisation : string ;
     TurnoverBusiness : string ;

@@ -267,3 +267,17 @@
 [35m[39m
 2023-05-04 16:35:01:351 [35mhttp[39m: [35mPOST /api/v1/smartech 201 469 - 2817.715 ms[39m
 [35m[39m
+2023-05-05 09:56:54:5654 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 09:56:54:5654 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 09:58:12:5812 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 09:58:12:5812 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 09:58:24:5824 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 09:58:24:5824 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 10:00:49:049 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 10:00:49:049 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 10:01:40:140 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 10:01:40:140 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 10:06:40:640 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 10:06:40:640 [32mdebug[39m: [32mApp is listening on port 9000[39m
+2023-05-05 10:12:19:1219 [32mdebug[39m: [32mApp eVisit with api version v1 is starting[39m
+2023-05-05 10:12:19:1219 [32mdebug[39m: [32mApp is listening on port 9000[39m
